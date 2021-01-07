@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Project 1</title>
+        <style>
+            body {
+                max-width: 1024px;
+            }
+            select:invalid + #validated {
+                display: none;
+            }
+            code {
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>
+                My favorite story...
+            </h2>
+        </header>
+        <main>
+            <h5>or well... coding story at least</h5>
+            <p>
+                Some years ago I was struggling to grasp the concepts of Closures in javascript, so obviously like any
+                self-respecting developer I went to the <a href="https://stackoverflow.com/">StackOverflow</a>. It is
+                there that I've found this <b>GEM</b> that I want to share with you.
+            </p>
+            <p>
+                The topic of closures in javascript is one of those things that confuses most developers not familiar
+                with either the language or the topic itself. Seeing as how most developers now-a-days actually meet
+                this concept for the first time within the javascript, this doubles down on the issue. So, I have, like
+                many before me, went down that road and on the road to discover found plent of answers, none of which
+                <b>made any sense whatsoever!</b>
+            </p>
+            <h3>I mean... just look at this definition from the wikipedia:</h3>
+            <pre style="font-family: Arial, Helvetica, sans-serif; line-height: 1.5">
+                In programming languages, a closure, also lexical closure or function closure, is a technique for
+                implementing lexically scoped name binding in a language with first-class functions. Operationally, a
+                closure is a record storing a function together with an environment. The environment is a mapping
+                associating each free variable of the function (variables that are used locally, but defined in an
+                enclosing scope) with the value or reference to which the name was bound when the closure was
+                created. Unlike a plain function, a closure allows the function to access those captured variables
+                through the closure's copies of their values or references, even when the function is invoked outside
+                their scope.
+            </pre>
+            <p>
+                How is any novice programmer to understand that? Half the words mean nothing to someone without deep
+                knowledge of programing concepts. This is one of the main reasons, or at least I view it as such, why we
+                find dirty and ugly code in the wilds today. People are not explained the proper concepts from the
+                start.
+            </p>
+            <h3>
+                So let me ask you do you want to see how a proper explenation looks like for someone who doesn't
+                understand things?
+            </h3>
+            <select required>
+                <option value="">No</option>
+                <option value="1" selected>Yes</option>
+            </select>
+            <div id="validated">
+                <h3>Well look no further!</h3>
+                <span
+                    >The content of this page was taken from:
+                    <a href="https://stackoverflow.com/a/6472397/5715550">this post</a> on stackoverflow.
+                </span>
+                <br />
+                <br />
+                <img src="story.jpg" alt="" />
+                <br />
+                <br />
+            </div>
+        </main>
+        <footer>
+            <h3>The tags used to meet the bare minimum were:</h3>
+            <ul>
+                <li>span</li>
+                <li>b</li>
+                <li>br</li>
+                <li>select</li>
+                <li>option</li>
+                <li>pre</li>
+                <li>footer</li>
+                <li>style</li>
+            </ul>
+            <p style="color: #999; font-size: 80%; margin-left: 30px;">
+                DISCLAIMER: I mean obviously I could have used many more, but I feel that this satisfies the test
+                criteria. I have three years of experiance as a front end developer, I am just going throught the course
+                in order to check it off my list, whilst trying to make minimum breeching of what the course is suppose
+                to be at every stage. Sometimes I just can't help it.
+            </p>
+        </footer>
+    </body>
+</html>

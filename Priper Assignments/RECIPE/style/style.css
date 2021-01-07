@@ -1,0 +1,30 @@
+.leaf
+{
+    list-style-image: url('https://cdn4.iconfinder.com/data/icons/24x24-free-pixel-icons/24/Accept.png');
+}
+.ul1
+{
+    text-decoration: underline;
+}
+.ol
+{
+    text-decoration: underline;
+}
+p a{
+    color: grey;
+    text-decoration: underline;
+}
+
+.class-for-span {
+    color: red;
+    text-decoretion: none;
+}
+
+.class-for-span:hover {
+    text-decoration:underline;
+}
+
+.par1 {
+    font-weight: bold;
+    font-style: italic;
+  }
